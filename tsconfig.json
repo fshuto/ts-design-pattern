@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        /* Bacis Options */
+        "module": "commonjs",
+        "target": "es2017",
+        "sourceMap": true,
+        "types": [ "node" ],
+        "outDir": "./build",
+        "lib": ["es2017"],
+        "incremental": true, /* 差分高速ビルド */
+
+        /* Strict Type-Checking Options */
+        "strict": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
